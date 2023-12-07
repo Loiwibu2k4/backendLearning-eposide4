@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .scroll {
+            height: 1000px;
+            width: 10px;
+        }
+        .header {
+            background: orangered;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+        .box {
+            color: chocolate;
+            border: 1px solid #38CCBB;
+        }
+        .box_position {
+            background: orange;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+
+        }
+        .box_absolute {
+            position: absolute;
+            background: orchid;
+            right: 0px;
+            top: 0px;
+
+        }
+        .box_sticky {
+            position: sticky;
+            background: orchid;
+            top: 0px;
+            width: 100%;
+            z-index: 999;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .box_fixed {
+            background: orange;
+            height: 50px;
+            width: 50px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+    </style>
+    <div class="scroll"> Em đang định học back end.
+        Em muốn hỏi nếu theo back end thì mình nên học ngôn ngữ nào ạ.
+        Hiện em đang học cao đẳng sao khi học song em định vào sài gòn.</div>
+    <div class="box_sticky">Test sticky 1</div>
+    <div class="box_position">1
+        <div class="box box_absolute">2</div>
+    </div>
+    <div class="scroll"> Em đang định học back end.
+        Em muốn hỏi nếu theo back end thì mình nên học ngôn ngữ nào ạ.
+        Hiện em đang học cao đẳng sao khi học song em định vào sài gòn.</div>
+    <!-- <div class="header">Thanh tieu de 001</div> -->
+    <div class="box_sticky">Test sticky 2</div>
+    <div class="scroll"> Em đang định học back end.
+        Em muốn hỏi nếu theo back end thì mình nên học ngôn ngữ nào ạ.
+        Hiện em đang học cao đẳng sao khi học song em định vào sài gòn.</div>
+    
+    <div class="box_fixed">Home Page</div>
+</body>
+</html>
