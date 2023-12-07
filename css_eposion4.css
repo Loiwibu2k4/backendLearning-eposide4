@@ -1,0 +1,11 @@
+.header {
+    color: rgb(3, 248, 248);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+}
+.bodyColor {
+    color: rgb(245, 6, 6);
+    font-style: italic;
+}
